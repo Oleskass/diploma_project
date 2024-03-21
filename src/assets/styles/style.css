@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  max-width: 1200px;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+canvas {
+  display: block;
+  background-color: #ffffff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: crosshair;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #42b983;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.color-box:last-child {
+  border: 1px solid rgb(173, 171, 171);
+}
+
+.color-picker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.brush-size-picker {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.size-box {
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+.size-box_selected {
+  font-weight: 900;
+}
+
+.tool {
+  margin-bottom: 2px;
+}
+
+.brush-type-picker {
+  display: flex;
+}
+.brush-type-picker button {
+  color: #fff;
+}
+
+.button-box {
+  display: flex;
+}
+
+.eraser.active {
+  background-color: #ff5050;
+  color: #ffffff;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
